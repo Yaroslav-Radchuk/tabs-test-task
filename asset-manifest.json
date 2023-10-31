@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/main.e9996e8b.css",
+    "main.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/main.1c90dfe2.js",
+    "static/css/457.798f9f6c.chunk.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/457.798f9f6c.chunk.css",
+    "static/js/457.ce9a30ce.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/457.ce9a30ce.chunk.js",
+    "static/css/743.798f9f6c.chunk.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/743.798f9f6c.chunk.css",
+    "static/js/743.55f9aed1.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/743.55f9aed1.chunk.js",
+    "static/css/314.cfe39abb.chunk.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/314.cfe39abb.chunk.css",
+    "static/js/314.ed4cd028.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/314.ed4cd028.chunk.js",
+    "static/css/148.cfe39abb.chunk.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/148.cfe39abb.chunk.css",
+    "static/js/148.707759f3.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/148.707759f3.chunk.js",
+    "static/css/125.eff5cad8.chunk.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/125.eff5cad8.chunk.css",
+    "static/js/125.bed2cc1f.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/125.bed2cc1f.chunk.js",
+    "static/css/411.eff5cad8.chunk.css": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/411.eff5cad8.chunk.css",
+    "static/js/411.e2ff12ea.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/411.e2ff12ea.chunk.js",
+    "static/js/77.26e6e50d.chunk.js": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/77.26e6e50d.chunk.js",
+    "static/media/not-found.png": "/Yaroslav-Radchuk/tabs-test-task.git/static/media/not-found.b9c26b4a92e1b742ff51.png",
+    "index.html": "/Yaroslav-Radchuk/tabs-test-task.git/index.html",
+    "main.e9996e8b.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/main.e9996e8b.css.map",
+    "main.1c90dfe2.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/main.1c90dfe2.js.map",
+    "457.798f9f6c.chunk.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/457.798f9f6c.chunk.css.map",
+    "457.ce9a30ce.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/457.ce9a30ce.chunk.js.map",
+    "743.798f9f6c.chunk.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/743.798f9f6c.chunk.css.map",
+    "743.55f9aed1.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/743.55f9aed1.chunk.js.map",
+    "314.cfe39abb.chunk.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/314.cfe39abb.chunk.css.map",
+    "314.ed4cd028.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/314.ed4cd028.chunk.js.map",
+    "148.cfe39abb.chunk.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/148.cfe39abb.chunk.css.map",
+    "148.707759f3.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/148.707759f3.chunk.js.map",
+    "125.eff5cad8.chunk.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/125.eff5cad8.chunk.css.map",
+    "125.bed2cc1f.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/125.bed2cc1f.chunk.js.map",
+    "411.eff5cad8.chunk.css.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/css/411.eff5cad8.chunk.css.map",
+    "411.e2ff12ea.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/411.e2ff12ea.chunk.js.map",
+    "77.26e6e50d.chunk.js.map": "/Yaroslav-Radchuk/tabs-test-task.git/static/js/77.26e6e50d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9996e8b.css",
+    "static/js/main.1c90dfe2.js"
+  ]
+}
