@@ -1,2 +1,0 @@
-.chart{display:inline-flex;flex-direction:column;gap:70px;position:relative;width:65%}.chart,.date{align-items:center;justify-content:center}.date{display:flex}.date__title{font-size:20px;font-weight:700;margin-right:15px;position:relative;text-transform:uppercase}.date__title:before{background:50%/cover no-repeat url(https://i.gstatvb.com/a1204d90b22dbdb6fe89356d84c61d351698663457.rng.png);content:"";height:32px;left:-40px;position:absolute;top:-4px;width:32px}.date__number{font-family:system-ui;font-weight:600}
-/*# sourceMappingURL=743.798f9f6c.chunk.css.map*/
