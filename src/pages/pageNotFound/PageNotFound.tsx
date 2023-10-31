@@ -11,7 +11,7 @@ export const PageNotFound: React.FC = () => {
       <img className="error__img" src={img} alt="Not Found" />
       <button className="error__btn" onClick={() => navigate('/')}>
         <p className="error__btn-text">Back to homepage</p>
-        <p className="error__iconer"></p>
+        <span className="error__btn-iconer"></span>
       </button>
     </div>
   );
