@@ -1,0 +1,40 @@
+$icon-date: 'https://i.gstatvb.com/a1204d90b22dbdb6fe89356d84c61d351698663457.rng.png';
+
+.chart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 70px;
+  flex-direction: column;
+  width: 65%;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 15px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: 32px;
+      width: 32px;
+      top: -4px;
+      left: -40px;
+      background: center/cover no-repeat url($icon-date);
+    }
+  }
+
+  &__number {
+    font-weight: 600;
+    font-family: system-ui;
+  }
+}

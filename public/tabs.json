@@ -1,0 +1,5 @@
+[
+  { "id": "movies", "title": "Movies", "order": 1, "path": "movieCard/MovieCard" },
+  { "id": "food", "title": "Food", "order": 2, "path": "foodReceipe/FoodReceipe" },
+  { "id": "chart", "title": "Chart", "order": 0, "path": "chart/ChartComponent" }
+]
