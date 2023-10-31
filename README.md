@@ -1,6 +1,6 @@
 # Tabs with routes.
 
-Click [Tabs](https://github.com/Yaroslav-Radchuk/tabs-test-task.git) to see the demonstration. 
+Click [here](https://Yaroslav-Radchuk.github.io/tabs-test-task) to see the demonstration. 
 
 Main task:
 
