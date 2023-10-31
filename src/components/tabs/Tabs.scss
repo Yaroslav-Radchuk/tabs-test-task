@@ -30,7 +30,7 @@
     text-decoration: none;
 
     &.is-active {
-      color: white;
+      color: #fff;
     }
   }
 
@@ -72,13 +72,18 @@
 
   .tabs {
 
+    &__container {
+      margin-bottom: 18px;
+    }
+
     &__item:not(:first-child) {
       margin-right: 16px;
     }
 
     &__link {
-      width: 90px;
-      height: 90px;
+      width: 75px;
+      height: 75px;
+      font-size: 18px;
     }
   }
 }

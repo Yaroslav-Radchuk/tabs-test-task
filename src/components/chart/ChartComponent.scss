@@ -1,4 +1,14 @@
 $icon-date: 'https://i.gstatvb.com/a1204d90b22dbdb6fe89356d84c61d351698663457.rng.png';
+$icon-euro: 'https://i.gstatvb.com/cdb71783be5a99cf99a1726d23f7c5041698791090.rng.png';
+
+@mixin text {
+  font-size: 18px;
+  font-weight: 700;
+  max-width: 165px;
+  color: #313131;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
 .chart {
   display: inline-flex;
@@ -7,44 +17,102 @@ $icon-date: 'https://i.gstatvb.com/a1204d90b22dbdb6fe89356d84c61d351698663457.rn
   position: relative;
   gap: 70px;
   flex-direction: column;
-  width: 65%;
+  width: 70%;
 }
 
-.date {
+.info {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+  flex-direction: row-reverse;
 
-  &__title {
-    position: relative;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-right: 15px;
+  &__date {
+    padding-top: 23px;
 
-    &:before {
-      content: '';
-      position: absolute;
-      height: 32px;
-      width: 32px;
-      top: -4px;
-      left: -40px;
-      background: center/cover no-repeat url($icon-date);
+    &_title {
+      @include text;
+      position: relative;
+      margin: 0 0 5px;
+  
+      &:before {
+        content: '';
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        top: 22px;
+        left: 0;
+        background: center/cover no-repeat url($icon-date);
+      }
+    }
+  
+    &_number {
+      margin: 0;
+      font-family: system-ui;
     }
   }
 
-  &__number {
-    font-weight: 600;
-    font-family: system-ui;
+  &__conversion {
+    @include text;
+
+    &_euro {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0630f9;
+    }
+
+    &:before {
+      content: '';
+      position: relative;
+      display: block;
+      height: 24px;
+      width: 24px;
+      top: 24px;
+      left: -32px;
+      background: center/cover no-repeat url($icon-euro);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .chart {
+    gap: 30px;
+    width: 90%;
   }
 }
 
 @media (max-width: 540px) {
 
-  .chart {
-    gap: 30px;
-    width: 80%;
+  .info {
+    padding-left: 20px;
+
+    &__date {
+      padding-top: 28px;
+
+      &_title {
+        font-size: 16px;
+    
+        &:before {
+          top: 20px;
+          left: -8px;
+        }
+      }
+    }
+
+    &__conversion {
+      font-size: 16px;
+
+      &:before {
+        height: 22px;
+        width: 22px;
+        top: 22px;
+        left: -20px;
+      }
+
+      &_euro {
+        font-size: 18px;
+      }
+    }
   }
 }
-
-

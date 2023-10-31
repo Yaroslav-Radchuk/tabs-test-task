@@ -56,9 +56,15 @@ const ChartComponent: React.FC = () => {
           <div className="loader__spinner"></div>
         </div>
       )}
-      <div className="date">
-        <p className="date__title">Date updated:</p>
-        <p className="date__number">{currencyData?.date}</p>
+      <div className="info">
+        <div className="info__date">
+          <p className="info__date_title">Date updated:</p>
+          <p className="info__date_number">{currencyData?.date}</p>
+        </div>
+        <div className="info__conversion">
+          <span className="info__conversion_euro">{currencyData.base} </span> 
+          conversion to currencies:
+        </div>
       </div>
       <div className="chart">
         <Bar

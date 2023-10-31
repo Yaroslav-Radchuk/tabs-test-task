@@ -3,5 +3,4 @@ export type Tab = {
   title: string;
   path: string;
   order?: number;
-  icon?: React.ComponentType<{ size: number }>;
 }

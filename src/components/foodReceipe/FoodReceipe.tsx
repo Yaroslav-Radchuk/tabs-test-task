@@ -34,7 +34,7 @@ const FoodReceipe = () => {
       <div className="cards">
         {foodData?.map(item => {
           return (
-            <div className="card">
+            <div key={`${item.food.foodId}`} className="card">
               {item.food.image ? (
                 <img
                   className="card__image"

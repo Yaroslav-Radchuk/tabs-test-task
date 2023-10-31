@@ -17,7 +17,7 @@ export const Tabs: React.FC<Props> = ({ tabs, selectedTabId }) => {
     () => tabs.find(tab => tab.id === selectedTabId),
     [selectedTabId],
   );
-  const MyComponent = selectedTab ? lazy(() => import(`../${selectedTab.path}`)) : null;
+  const TabComponent = selectedTab ? lazy(() => import(`../${selectedTab.path}`)) : null;
 
   return (
     <div className="tabs">
@@ -39,7 +39,7 @@ export const Tabs: React.FC<Props> = ({ tabs, selectedTabId }) => {
       </div>
 
       <Suspense>
-        {MyComponent ? <MyComponent /> : null}
+        {TabComponent ? <TabComponent /> : null}
       </Suspense>
     </div>
   );

@@ -32,12 +32,12 @@ const MovieCard = () => {
         </div>
       )}
       <div className="cards">
-        {movies?.map(({ l, i, s, y }) => {
+        {movies?.map(({ l, i, s, y, id }) => {
           const titlelength = l.length > 45 ? `${l.slice(0, 38)}...` : l;
 
           if (i && i.imageUrl) {
             return (
-              <div className="card-movie">
+              <div key={`${id}`} className="card-movie">
                 <img
                   className="card-movie__image"
                   src={i.imageUrl}
