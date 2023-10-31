@@ -1,5 +1,6 @@
 {
   "name": "backendless-test-task",
+  "homepage": "https://github.com/Yaroslav-Radchuk/tabs-test-task.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
