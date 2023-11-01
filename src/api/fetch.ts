@@ -1,4 +1,4 @@
-const apiKey = 'd5315a5d36msh8222a2698ffc771p1996b7jsna17929fd315d';
+const apiKey = '7dbb905490msh0887f9c925874e9p1f07abjsn50a5c1ff4189';
 
 const movieUrl = 'https://imdb8.p.rapidapi.com/auto-complete?q=game%20of%20thr';
 const foodUrl = 'https://edamam-food-and-grocery-database.p.rapidapi.com/api/food-database/v2/parser?nutrition-type=cooking&category%5B0%5D=generic-foods&health%5B0%5D=alcohol-free';
